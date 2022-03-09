@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test name="chrome">
+  <parameter name="browsers" value="chrome"/>
+    <classes>
+      <class name="scripts.TC_001_Login_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="chrome1">
+  <parameter name="browsers" value="chrome"/>
+    <classes>
+      <class name="scripts.TC_002_ExternalLinks_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <!--  
+  <test name="microsoft_edge">
+  <parameter name="browsers" value="microsoft_edge"/>
+    <classes>
+      <class name="scripts.TC_001_Login_Test"/>
+    </classes>
+  </test> 
+    <test name="microsoft_edge1">
+  <parameter name="browsers" value="microsoft_edge"/>
+    <classes>
+      <class name="scripts.TC_002_ExternalLinks_Test"/>
+    </classes>
+  </test> 
+  -->
+
+</suite> <!-- Suite -->

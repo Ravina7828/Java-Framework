@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 1.416 s <<< FAILURE! - in TestSuite
+verifyBrowsers(scripts.TC_001_Login_Test)  Time elapsed: 0.909 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browsers' is required by BeforeMethod on method verifyBrowsers but has not been marked @Optional or defined
+
+
+verifyBrowsers(scripts.TC_002_ExternalLinks_Test)  Time elapsed: 0.006 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browsers' is required by BeforeMethod on method verifyBrowsers but has not been marked @Optional or defined
+
+
